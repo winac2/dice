@@ -1,5 +1,5 @@
 function rollDice() {
-    fetch("/roll")
+    fetch("https://tai-xiu-backend.onrender.com/roll")
         .then(res => res.json())
         .then(data => {
             document.getElementById("dice").innerText = data.dice;
@@ -8,3 +8,4 @@ function rollDice() {
             result.style.color = data.color;
         });
 }
+
