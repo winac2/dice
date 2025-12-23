@@ -1,5 +1,5 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/mainpage.html" }
+    { "source": "/(.*)", "destination": "/app.py" }
   ]
 }
